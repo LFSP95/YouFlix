@@ -55,7 +55,7 @@ useEffect(() => {
                 break;
 
             case '3':
-                setSubject(Subject[0].nameSubjects);
+                setSubject(Subject[2].nameSubjects);
                 for(let i = 0; i < MobileData.length; i++) {
                     const req = await Api.get(`/videos?part=snippet&id=${MobileData[i].videoID}&key=${apiKey}`);
                     videosObject.push({
@@ -69,7 +69,7 @@ useEffect(() => {
                 break;
 
             case '4':
-                setSubject(Subject[0].nameSubjects);
+                setSubject(Subject[3].nameSubjects);
                 for(let i = 0; i < BancoData.length; i++) {
                     const req = await Api.get(`/videos?part=snippet&id=${BancoData[i].videoID}&key=${apiKey}`);
                     videosObject.push({
@@ -83,7 +83,7 @@ useEffect(() => {
                 break;
 
             case '5':
-                setSubject(Subject[0].nameSubjects);
+                setSubject(Subject[4].nameSubjects);
                 for(let i = 0; i < WebData.length; i++) {
                     const req = await Api.get(`/videos?part=snippet&id=${WebData[i].videoID}&key=${apiKey}`);
                     videosObject.push({
@@ -97,7 +97,7 @@ useEffect(() => {
                 break;
             
             case '6':
-                setSubject(Subject[0].nameSubjects);
+                setSubject(Subject[5].nameSubjects);
                 for(let i = 0; i < TesteData.length; i++) {
                     const req = await Api.get(`/videos?part=snippet&id=${TesteData[i].videoID}&key=${apiKey}`);
                     videosObject.push({
