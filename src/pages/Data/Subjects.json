@@ -1,0 +1,26 @@
+[ 
+    {
+        "id":"1",
+        "nameSubjects":"Logica de programação"
+    },
+    {
+        "id":"2",
+        "nameSubjects":"Desenvolvimento de sistemas"
+    },
+    {
+        "id":"3",
+        "nameSubjects":"Desenvolvimento mobile"
+    },
+    {
+        "id":"4",
+        "nameSubjects":"Banco de dados"
+    },
+    {
+        "id":"5",
+        "nameSubjects":"Programação WEB"
+    },
+    {
+        "id":"6",
+        "nomeMateria":"Testes de sistemas"
+    }
+]
