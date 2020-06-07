@@ -29,7 +29,7 @@ APIs:
 
 - [YouTube](https://developers.google.com/youtube)
 
-[Documentação detalhada](https://github.com/EmanuelOSSouza/YouFlix/blob/master/Docs/YouFlix.docx)
+**[Documentação detalhada](https://github.com/EmanuelOSSouza/YouFlix/blob/master/Docs/YouFlix.docx)**
 
 **Autores**
 
